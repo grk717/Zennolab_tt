@@ -2,7 +2,7 @@
 
 ## Approach 
 
-Used multi-modal zero-shot model [CLIPSeg](https://huggingface.co/docs/transformers/main/en/model_doc/clipseg) and converted mask to bounding boxes. Tried zero-shot detection models from [https://github.com/autodistill/autodistill], all of them showed worse performance.
+Used multi-modal zero-shot model [CLIPSeg](https://huggingface.co/docs/transformers/main/en/model_doc/clipseg) and converted mask to bounding boxes. Tried zero-shot detection models from [Autodistill](https://github.com/autodistill/autodistill), all of them showed worse performance globally, but better in some categories.
 
 ## Launch
 ```
